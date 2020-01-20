@@ -27,7 +27,7 @@ const FORECAST_DELAY = 0;
 
 // CODELAB: If running locally, set your Dark Sky API key here
 const API_KEY = process.env.DARKSKY_API_KEY;
-const BASE_URL = `https://api.darksky.net/forecast`;
+const BASE_URL = `https://api.darksky.net/forecast/d80fbc54c99ec3c6dc2de01c6bb7b80e`;
 
 // Fake forecast data used if we can't reach the Dark Sky API
 const fakeForecast = {
